@@ -1,0 +1,54 @@
+/* 
+ * This CSS file is used to style the recipes site.
+ * 
+ * Suggested changes:
+ * 1. Improve the readability of text by increasing the font size and line height.
+ * 2. Add more spacing between sections to make the layout less cluttered.
+ * 3. Use a consistent color scheme to enhance the visual appeal.
+ * 4. Ensure that the site is responsive and looks good on different screen sizes.
+ * 5. Add hover effects to buttons and links to improve user interaction.
+ * 6. Optimize the use of images and media to ensure faster loading times.
+ * 7. Consider using CSS variables for easier theme management.
+ */
+
+* {
+    background-color: black;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+.heading{
+    text-align: center;
+    font-family: cursive;  
+    color: darkgoldenrod;  
+}
+
+
+.strong {
+    color: darkgoldenrod;
+}
+
+.footer {
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Footer CSS */
+.footer li {
+    list-style: none;
+}
+
+.footer a {
+    color: cadetblue;
+}
+
+.footer a i {
+    color: cadetblue;
+}
+
+
+
